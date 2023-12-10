@@ -1,0 +1,6 @@
+- Enable adding file to the rendering process
+
+o figure how to load file with three
+o figure how to load the image to be passed into meshToMap
+
+! load file first, then place await at the end to store the file

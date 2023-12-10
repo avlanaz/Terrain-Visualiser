@@ -1,0 +1,20 @@
+**WebGL Terrain Generator**
+
+V Decide how data will be structured
+    o glTF is popular file
+    o but we just stick with representation using BufferGeometry
+V Read vector data from black-white image
+V Render mesh using vector data
+V Allow mouse rotation and translation on image
+
+- Enable adding file to the rendering process
+
+- Generate noise for roughness
+- Allow height data to be manipulated after render (make it accessible)
+- Get manipulated height data to change the rendered map mesh
+- Configure BufferGeometryLoader (or custom loader) to load the mesh
+
+*Erosion*
+- Implement constant Erosion
+- Implement random Erosion
+- Implement erosion with water droplet
